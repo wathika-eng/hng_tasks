@@ -45,7 +45,7 @@ $response_body = [
         "name" => "Joseph Wathika",
         "stack" => "PHP"
     ],
-    "timestamp" => gmdate(("c")),
+    "timestamp" => gmdate("c"),
     "fact" => $factData["fact"] ?? "No fact found"
 ];
 
